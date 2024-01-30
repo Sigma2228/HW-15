@@ -1,0 +1,36 @@
+.holder {
+width: 500px;
+display: flex;
+flex-wrap: wrap;
+border: 3px solid black;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+.item {
+    flex-basis: 200px;
+    height: 200px;
+    font-size: 30px;
+    flex-grow: 1;
+}
+.item#one {
+    background-color: rgb(255, 72, 0);
+flex-grow: 2;
+order: -2;
+}
+.item#two {
+    background-color: rgb(0, 174, 255);
+    flex-shrink: 1;
+}
+.item#three {
+    background-color: indigo;
+    flex-shrink: 1;
+}
+.item#four {
+    background-color: green;
+    flex-shrink: 1;
+}
+.item#five {
+    background-color: chocolate;
+    flex-grow: 2;
+    order: -1;
+}
